@@ -6,29 +6,32 @@ body{
     font-family: 'Outfit';
     background-color:  hsl(217, 54%, 11%);
     color:hsl(0, 0%, 100%);
-    width:45%;
+    width:25%;
+    height:15%;
 }
 
 .container{
     background-color:  hsl(216, 50%, 16%);
     border-radius: 15px;
+    
 }
 
 hr{
     color:hsl(215, 32%, 27%);
-    width:100%;
+    width:99%;
 }
 
 p{
+    font-size:18px;
    color: hsl(215, 51%, 70%);
 }
-#creater-image{
-    width:5%;
-    height:14%;
-}
 
-.main-image{
-    width:25%;
-    height:15%;
+
+#creator-link{
+    color: hsl(215, 51%, 70%);
+}
+#main-image{
+    width:340px;
+    height:290px;
     border-radius:15px;;
 }

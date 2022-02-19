@@ -7,10 +7,13 @@ body{
     font-family: 'Outfit';
     background-color:  hsl(217, 54%, 11%);
     color:hsl(0, 0%, 100%);
+    width:45%;
 }
 
 .container{
     background-color:  hsl(216, 50%, 16%);
+    text-align: center;
+    border-radius: 15px;
 }
 
 hr{
@@ -21,4 +24,10 @@ hr{
 #creater-image{
     width:5%;
     height:14%;
+}
+
+#main-image{
+    width:300px;
+    height:250px;
+    border-radius:15px;;
 }

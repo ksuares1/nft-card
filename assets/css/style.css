@@ -22,6 +22,11 @@ hr{
     width:99%;
 }
 
+
+#location{
+    color: hsl(178, 100%, 50%);
+}
+
 p{
     font-size:18px;
    color: hsl(215, 51%, 70%);

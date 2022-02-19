@@ -2,7 +2,6 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 body{
-    text-align:center;
     font-size:18px;
     font-family: 'Outfit';
     background-color:  hsl(217, 54%, 11%);
@@ -12,13 +11,12 @@ body{
 
 .container{
     background-color:  hsl(216, 50%, 16%);
-    text-align: center;
     border-radius: 15px;
 }
 
 hr{
     color:hsl(215, 32%, 27%);
-    width:25%;
+    width:100%;
 }
 
 #creater-image{
@@ -26,8 +24,8 @@ hr{
     height:14%;
 }
 
-#main-image{
-    width:300px;
-    height:250px;
+.main-image{
+    width:25%;
+    height:15%;
     border-radius:15px;;
 }

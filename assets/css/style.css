@@ -4,6 +4,7 @@
 body{
     font-size:18px;
     font-family: 'Outfit';
+    font-weight:300, 400, 600;
     background-color:  hsl(217, 54%, 11%);
     color:hsl(0, 0%, 100%);
     width:25%;

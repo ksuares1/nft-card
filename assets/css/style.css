@@ -1,5 +1,7 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px;
+     text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
 
 body{
     font-size:18px;
@@ -14,7 +16,7 @@ body{
 .container{
     background-color:  hsl(216, 50%, 16%);
     border-radius: 15px;
-    
+    height:45%;
 }
 
 hr{
@@ -35,6 +37,11 @@ p{
 
 #creator-link{
     color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+#creator-image{
+    width:10%;
 }
 #main-image{
     width:340px;

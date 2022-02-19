@@ -19,6 +19,9 @@ hr{
     width:100%;
 }
 
+p{
+   color: hsl(215, 51%, 70%);
+}
 #creater-image{
     width:5%;
     height:14%;

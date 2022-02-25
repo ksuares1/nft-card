@@ -3,7 +3,12 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); }
 
-   
+   main{
+       width:25%;
+       background-color: hsl(216, 50%, 16%);
+       border-radius: 10px;
+   }
+
 body{
     font-size:18px;
     font-family: 'Outfit';
@@ -15,24 +20,20 @@ body{
     height: 100vh;  
 }
 
-.card-content , .container{
-    background-color: hsl(216, 50%, 16%);
-    border-radius: 15px;
+
+.clock-pic{
+    color: hsl(215, 51%, 70%)
 }
 
-/* .container{
-    background-color:  hsl(216, 50%, 16%);
-    border-radius: 15px;
-    height:45%;
-    margin: auto;
-    width: 500px;
-    padding: 10px;
-} */
-
+#creator-name{
+    color:hsl(0, 0%, 100%); 
+}
 
 #first-sentence{
     color:hsl(0, 0%, 100%);
 }
+
+
 hr{
     color:hsl(215, 32%, 27%);
     width:99%;

@@ -1,24 +1,38 @@
 .attribution { font-size: 11px;
-     text-align: center; }
+     text-align : center; }
 .attribution a { 
     color: hsl(228, 45%, 44%); }
 
+   
 body{
     font-size:18px;
     font-family: 'Outfit';
     font-weight:300, 400, 600;
     background-color:  hsl(217, 54%, 11%);
-    color:hsl(0, 0%, 100%);
-    width:25%;
-    height:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
 }
 
-.container{
+.card-content{
+    background-color: hsl(216, 50%, 16%);
+}
+
+/* .container{
     background-color:  hsl(216, 50%, 16%);
     border-radius: 15px;
     height:45%;
-}
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+} */
 
+
+#first-sentence{
+    color:hsl(0, 0%, 100%);
+}
 hr{
     color:hsl(215, 32%, 27%);
     width:99%;

@@ -3,11 +3,12 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); }
 
-   main{
-       width:5px;
-       height:550px;
+   .container{
+       width:20rem;
        background-color: hsl(216, 50%, 16%);
        border-radius: 15px;
+       width:22rem;
+       padding:1rem;
    }
 
 body{
@@ -43,6 +44,7 @@ body{
     color:hsl(0, 0%, 100%);
     font-size: 18px;
     font-family: 'Outfit';
+    font-weight: 800px;;
 }
 
 
@@ -73,12 +75,8 @@ p{
 
 
 #main-image{
-    width:320px;
-    height:290px;
-    display: flex;
-    justify-content: center;
+    width:100%;
     border-radius:15px;
-    margin:5%;
 }
 
 .row{

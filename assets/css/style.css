@@ -31,25 +31,27 @@ body{
         } 
 
 
-        #main-image{
+        .main-image{
             width:100%;
             border-radius:15px;
-            cursor: pointer;
+            cursor: pointer;  
         }
         
-        #main-image:active{
-            background-color:cyan;
+        .overlay:hover{
+            color:cyan;
         }
+       
 
         #first-sentence{
             color:hsl(0, 0%, 100%);
             font-size: 18px;
             font-family: 'Outfit';
+            line-height:1.5px;
             font-weight: 800px;;
             cursor:pointer;
         }
         
-        #first-sentence:active{
+        #first-sentence:hover{
             color:cyan;
         }
 
@@ -92,7 +94,7 @@ p{
     cursor: pointer;
 }
 
-#creator-name:active{
+#creator-name:hover{
     color:cyan;
 }
 

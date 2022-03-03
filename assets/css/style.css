@@ -38,6 +38,7 @@ body{
 
 #creator-name{
     color:hsl(0, 0%, 100%); 
+    cursor: pointer;
 }
 
 #first-sentence{
@@ -78,6 +79,7 @@ p{
 #main-image{
     width:100%;
     border-radius:15px;
+    cursor: pointer;
 }
 
 .row{

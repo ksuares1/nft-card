@@ -31,23 +31,35 @@ body{
         } 
 
 
+        #main-image{
+            width:100%;
+            border-radius:15px;
+            cursor: pointer;
+        }
+        
+        #main-image:active{
+            background-color:cyan;
+        }
+
+        #first-sentence{
+            color:hsl(0, 0%, 100%);
+            font-size: 18px;
+            font-family: 'Outfit';
+            font-weight: 800px;;
+            cursor:pointer;
+        }
+        
+        #first-sentence:active{
+            color:cyan;
+        }
+
 .clock-pic{
     color: hsl(215, 51%, 70%);
     float:left;
 }
 
-#creator-name{
-    color:hsl(0, 0%, 100%); 
-    cursor: pointer;
-}
 
-#first-sentence{
-    color:hsl(0, 0%, 100%);
-    font-size: 18px;
-    font-family: 'Outfit';
-    font-weight: 800px;;
-    cursor:pointer;
-}
+
 
 
 hr{
@@ -58,7 +70,6 @@ hr{
 
 #location{
     color: hsl(178, 100%, 50%);
-    cursor:pointer;
 }
 
 p{
@@ -76,12 +87,15 @@ p{
     width:10%;
 }
 
-
-#main-image{
-    width:100%;
-    border-radius:15px;
+#creator-name{
+    color:hsl(0, 0%, 100%); 
     cursor: pointer;
 }
+
+#creator-name:active{
+    color:cyan;
+}
+
 
 .row{
     display:flex;

@@ -14,7 +14,7 @@
 body{
     font-size:18px;
     font-family: 'Outfit';
-    font-weight:300, 400, 600;
+    font-weight:300;
     background-color:  hsl(217, 54%, 11%);
     display: flex;
     justify-content: center;
@@ -31,23 +31,22 @@ body{
         } 
 
 
-        .main-image{
+        .nft-image{
             width:100%;
             border-radius:15px;
             cursor: pointer;  
         }
         
         .overlay:hover{
-            color:cyan;
+            background-color: cyan;
         }
-       
 
         #first-sentence{
             color:hsl(0, 0%, 100%);
             font-size: 18px;
             font-family: 'Outfit';
             line-height:1.5px;
-            font-weight: 800px;;
+            font-weight: 600px;;
             cursor:pointer;
         }
         

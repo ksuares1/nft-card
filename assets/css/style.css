@@ -6,6 +6,19 @@ main {
     align-items: center;
     margin-bottom: 50px;
   }
+
+  body{
+    font-size:18px;
+    font-family: 'Outfit';
+    font-weight:300;
+    line-height:1.5;
+    background-color:  hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+}
+
   .sr-only {
     clip: rect(1px, 1px, 1px, 1px);
     clip-path: inset(50%);
@@ -18,7 +31,7 @@ main {
   }
   
   .container{
-       width:20rem;
+       width:100%;
        background-color: hsl(216, 50%, 16%);
        border-radius:1rem;
        width:100%;
@@ -27,16 +40,7 @@ main {
        padding:1.5rem;
    }
 
-body{
-    font-size:18px;
-    font-family: 'Outfit';
-    font-weight:300;
-    background-color:  hsl(217, 54%, 11%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;  
-}
+
 
     @media screen{
         main{

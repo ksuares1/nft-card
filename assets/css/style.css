@@ -1,9 +1,21 @@
-   .container{
+main {
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  .container{
        width:20rem;
        background-color: hsl(216, 50%, 16%);
-       border-radius: 15px;
-       width:22rem;
-       padding:1rem;
+       border-radius:1 rem;
+       width:100%;
+       max-width:320px;
+       color: hsl(216, 50%, 16%);
+       box-shadow: 1px 1px 40px 2px;
+       padding:1.5rem;
    }
 
 body{
@@ -14,7 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;  
+    min-height: 100vh;  
 }
 
     @media screen{
@@ -66,7 +78,6 @@ body{
             color:hsl(0, 0%, 100%);
             font-size: 20px;
             font-family: 'Outfit';
-            line-height:1.5px;
             font-weight: 600px;
             padding:1.25rem 0;
         }

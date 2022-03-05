@@ -184,10 +184,17 @@ hr{
 
 /* footer */
 
-.footer-text{
-    color:white;
-    display: flex;
-    align-items: center;
+footer{
+    color:yellow;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align:center;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+
 }
 .attribution { 
     font-size: 11px;
@@ -197,6 +204,6 @@ hr{
 
 }
 .attribution, a { 
-   color:lightgrey;
+   color:white;
  }
 

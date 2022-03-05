@@ -66,7 +66,7 @@ main {
         }
        
        .card-overlay-container{
-            background-color: cyan;
+            background-color:cyan; 
             position: absolute;
 	        top: 0;
 	        bottom: 0;
@@ -78,6 +78,7 @@ main {
 	        display: flex;
 	        justify-content: center;
 	        align-items: center;
+            
 
         }  
 
@@ -102,7 +103,7 @@ main {
 
 .clock-pic{
     color: hsl(215, 51%, 70%); 
-    font-size: 16.8px;
+    font-size: 14px;
     font-weight:400;
 }
 
@@ -195,6 +196,10 @@ footer{
     padding-right: 1rem;
     padding-bottom: 0.5rem;
 
+}
+
+footer:hover{
+    cursor: pointer;
 }
 .attribution { 
     font-size: 11px;

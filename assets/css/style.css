@@ -66,24 +66,25 @@ main {
         }
        
        .card-overlay-container{
-            background-color:cyan; 
+            background-color:cyan;  
             position: absolute;
 	        top: 0;
 	        bottom: 0;
 	        left: 0;
 	        right: 0;
 	        opacity: 0;
-	        transition: opacity ease-in 0.3s;
+	        transition:opacity ease-in 0.3s;
 	        border-radius: 1rem;
 	        display: flex;
 	        justify-content: center;
 	        align-items: center;
+          
             
 
         }  
 
              .card-overlay-container:hover {
-                opacity: 1;
+                opacity: 0.3;
                 cursor:pointer;
             }
     

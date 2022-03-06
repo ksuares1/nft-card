@@ -194,12 +194,12 @@ footer{
     padding-top: 0.5rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
-    color:light-blue;
+    background-color:grey;
 
 }
 
 .footer-text{
-    color:lightgrey;
+    color:yellow;
 }
 footer:hover{
     cursor: pointer;

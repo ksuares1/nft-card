@@ -186,18 +186,20 @@ hr{
 /* footer */
 
 footer{
-    color:yellow;
     position:fixed;
     bottom: 0;
     right: 0;
     width: 100%;
-    text-align:center;
+    text-align:right;
     padding-top: 0.5rem;
     padding-right: 1rem;
     padding-bottom: 0.5rem;
 
 }
 
+.footer-text{
+    color:lightgrey;
+}
 footer:hover{
     cursor: pointer;
 }

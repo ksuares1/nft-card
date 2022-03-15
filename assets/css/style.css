@@ -46,7 +46,6 @@ main {
         main{
             max-width:1440px;
             min-width:375px;
-    
         }
         } 
 
@@ -124,9 +123,7 @@ main {
 
 hr{
     border:none;
-    background-color:hsl(215, 32%, 27%);
-    color:#000;
-    color:white;
+    background-color:hsl(215, 32%, 27%); 
     height:1px;
     margin: 1.25rem 0;
 }
